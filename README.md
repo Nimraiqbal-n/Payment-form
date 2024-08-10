@@ -1,2 +1,52 @@
 # Payment-form
 This repository contains a simple, responsive payment form designed using HTML and CSS. The form captures essential user information such as contact details, address, and payment information, including card type, card number, expiration date, and a secure pin code.
+
+//HTMLcode
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="PaymentForm.css">
+</head>
+<body>
+    <div class="container">
+    <form action="" method="get">
+        
+        <h1>PAYMENT FORM</h1>
+        <H2>Contact Information</H2>
+        <p>Name: *<input type="text" name="name" required>
+        </p>
+        <fieldset>
+            <legend>Gender</legend>
+        Male <input type="radio" name="gender", id="male">
+        Female <input type="radio" name="gender", id="female">
+    </fieldset>
+    <P>Address:  <textarea name="Address" id="address" cols="50" rows="3"></textarea> </P>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <p>Pincode: <input type="number" name="number" id="number"></p>
+
+    <hr>
+    <h2>Payment information</h2>
+    <p>
+        Card type: 
+        <select>
+            <option value="">--select an option--</option>
+            <option value="paypal">Paypal</option>
+            <option value="visa">Visa</option>
+            <option value="nayapay">Nayapay</option>
+
+        </select>
+    </p>
+    <p>Card number: <input type="number" name="card_number" id="card_number"> </p>
+    <p>Expiration date: <input type="date" name="exp_date" id="exp_date"> </p>
+    <p>Pincode: <input type="password" name="pincode" id="pincode"> </p>
+    <input type="submit" value="Pay Now"> 
+
+    </form>
+</div>
+</body>
+</html>
