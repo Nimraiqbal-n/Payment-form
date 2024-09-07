@@ -24,6 +24,11 @@ The form is divided into two main sections:
    - **Card Number**: A numeric field for entering the card number.
    - **Expiration Date**: A date field for selecting the card's expiration date.
    - **Pincode**: A password field for entering the secure pin code.
+## Screenshot 
+![image](https://github.com/user-attachments/assets/e2a78127-7608-4b12-a1c2-0c0257a64f57)
+![image](https://github.com/user-attachments/assets/1ac01805-8e67-416d-ab6b-fd372e9bc949)
+
+
 
 ## Contributing
 If you want to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Contributions are welcome!
